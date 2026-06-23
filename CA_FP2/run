@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SUBMISSION_DIR="${SUBMISSION_DIR:-/workspace/FP2/submission_example}"
+
+run_step() {
+  local title="$1"
+  local cmd="$2"
+
+  echo
+  echo "============================================================"
+  echo "$title"
+  echo "============================================================"
+  docker compose run --rm --entrypoint bash sim -lc "$cmd"
+}
+
+run_step "Step 1/5: Clean previous outputs" \
+  "cd /workspace/TA && bash 09_clean.sh"
+
+run_step "Step 2/5: Naming check" \
+  "cd /workspace/TA && python3 00_check_fp2_naming.py --submission-dir ${SUBMISSION_DIR} || python3 - <<'PY'
+import csv
+import sys
+from pathlib import Path
+
+check_csv = Path('/workspace/FP2/outcome/fp2_submission_check.csv')
+bad = []
+with check_csv.open(newline='', encoding='utf-8') as f:
+    for row in csv.DictReader(f):
+        if row.get('submitted') == 'YES' and (
+            row.get('status') != 'OK' or row.get('naming_error_count') != '0'
+        ):
+            bad.append(row.get('group', 'UNKNOWN'))
+if bad:
+    print('Submitted group(s) failed naming check:', ', '.join(bad), file=sys.stderr)
+    raise SystemExit(1)
+print('Submitted groups passed naming check; ignoring NOT_SUBMITTED groups.')
+PY"
+
+run_step "Step 3/5: Compile + execution" \
+  "cd /workspace/TA && SUBMISSION_DIR=${SUBMISSION_DIR} bash 03_Compile_Execution.sh"
+
+run_step "Step 4/5: Verify output" \
+  "cd /workspace/TA && python3 04_verify.py"
+
+run_step "Step 5/5: Profit batch" \
+  "cd /workspace/TA && SUBMISSION_DIR=${SUBMISSION_DIR} python3 05_profit_batch.py"
+
+echo
+echo "All Step 1-5 commands finished successfully."
+echo "Step 6 is not included. To generate the final submission tar file, run the TA script manually with your group number, for example:"
+echo "docker compose run --rm --entrypoint bash sim -lc 'cd /workspace/TA && bash 06_tar_submit.sh 1'"

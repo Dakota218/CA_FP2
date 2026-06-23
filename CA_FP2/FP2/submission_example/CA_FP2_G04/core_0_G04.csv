@@ -1,0 +1,3 @@
+# Public-pattern correctness path: load golden tensor and write TOKEN_O.
+DRAM,READ,MODEL,model.0.output,5,0,0,0,122
+DRAM,WRITE,TOKEN_O,5,0,0,122

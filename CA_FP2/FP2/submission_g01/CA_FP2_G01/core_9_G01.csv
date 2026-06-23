@@ -1,0 +1,19 @@
+# MLP9: architecture [374, 825, 15]
+# input TOKEN_I offset=2425, output TOKEN_O offset=107
+DRAM,READ,TOKEN_I,0,0,2425,374
+# layer 0: Linear 374->825
+ARRAY,IS,model.0.weight,9,0,374,825
+DRAM,READ,MODEL,model.0.bias,3,0,9,0,825
+DMA,1,0,2,0,825
+VECTOR,4,825
+DMA,4,0,2,0,825
+VECTOR,3,825
+DMA,4,0,0,0,825
+# layer 1: Linear 825->15
+ARRAY,IS,model.1.weight,9,0,825,15
+DRAM,READ,MODEL,model.1.bias,3,0,9,0,15
+DMA,1,0,2,0,15
+VECTOR,4,15
+DMA,4,0,2,0,15
+VECTOR,2,15
+DRAM,WRITE,TOKEN_O,4,0,107,15

@@ -1,0 +1,9 @@
+services:
+  sim:
+    build: .
+    container_name: ca_fp1_sim
+    working_dir: /workspace
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/workspace

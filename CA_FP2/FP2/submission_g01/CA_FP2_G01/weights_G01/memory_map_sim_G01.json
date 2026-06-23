@@ -1,0 +1,1603 @@
+{
+  "model.0.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 584320,
+        "slice_shape": [
+          440,
+          332
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          332,
+          440
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 584320,
+        "bin_size_bytes": 1328,
+        "slice_shape": [
+          332,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          332
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 585648,
+        "bin_size_bytes": 4614800,
+        "slice_shape": [
+          332,
+          3475
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          3475,
+          332
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 5200448,
+        "bin_size_bytes": 13900,
+        "slice_shape": [
+          3475,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          3475
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 5214348,
+        "bin_size_bytes": 10675200,
+        "slice_shape": [
+          3475,
+          768
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          768,
+          3475
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 15889548,
+        "bin_size_bytes": 3072,
+        "slice_shape": [
+          768,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          768
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 15892620,
+        "bin_size_bytes": 11569152,
+        "slice_shape": [
+          768,
+          3766
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          3766,
+          768
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 27461772,
+        "bin_size_bytes": 15064,
+        "slice_shape": [
+          3766,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          3766
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 27476836,
+        "bin_size_bytes": 10981656,
+        "slice_shape": [
+          3766,
+          729
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          729,
+          3766
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 38458492,
+        "bin_size_bytes": 2916,
+        "slice_shape": [
+          729,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          729
+        ]
+      }
+    },
+    "model.5.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 38461408,
+        "bin_size_bytes": 857304,
+        "slice_shape": [
+          729,
+          294
+        ],
+        "source_key": "model.10.weight",
+        "tensor_shape": [
+          294,
+          729
+        ]
+      }
+    },
+    "model.5.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 39318712,
+        "bin_size_bytes": 1176,
+        "slice_shape": [
+          294,
+          1
+        ],
+        "source_key": "model.10.bias",
+        "tensor_shape": [
+          294
+        ]
+      }
+    },
+    "model.6.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 39319888,
+        "bin_size_bytes": 1072512,
+        "slice_shape": [
+          294,
+          912
+        ],
+        "source_key": "model.12.weight",
+        "tensor_shape": [
+          912,
+          294
+        ]
+      }
+    },
+    "model.6.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 40392400,
+        "bin_size_bytes": 3648,
+        "slice_shape": [
+          912,
+          1
+        ],
+        "source_key": "model.12.bias",
+        "tensor_shape": [
+          912
+        ]
+      }
+    },
+    "model.7.weight": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 40396048,
+        "bin_size_bytes": 32832,
+        "slice_shape": [
+          912,
+          9
+        ],
+        "source_key": "model.14.weight",
+        "tensor_shape": [
+          9,
+          912
+        ]
+      }
+    },
+    "model.7.bias": {
+      "0": {
+        "bin_file": "model_0_weights_G01.bin",
+        "bin_offset_bytes": 40428880,
+        "bin_size_bytes": 36,
+        "slice_shape": [
+          9,
+          1
+        ],
+        "source_key": "model.14.bias",
+        "tensor_shape": [
+          9
+        ]
+      }
+    }
+  },
+  "model.1.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 3534300,
+        "slice_shape": [
+          297,
+          2975
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          2975,
+          297
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 3534300,
+        "bin_size_bytes": 11900,
+        "slice_shape": [
+          2975,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          2975
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 3546200,
+        "bin_size_bytes": 9436700,
+        "slice_shape": [
+          2975,
+          793
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          793,
+          2975
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 12982900,
+        "bin_size_bytes": 3172,
+        "slice_shape": [
+          793,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          793
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 12986072,
+        "bin_size_bytes": 1179984,
+        "slice_shape": [
+          793,
+          372
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          372,
+          793
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 14166056,
+        "bin_size_bytes": 1488,
+        "slice_shape": [
+          372,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          372
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 14167544,
+        "bin_size_bytes": 19344,
+        "slice_shape": [
+          372,
+          13
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          13,
+          372
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_1_weights_G01.bin",
+        "bin_offset_bytes": 14186888,
+        "bin_size_bytes": 52,
+        "slice_shape": [
+          13,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          13
+        ]
+      }
+    }
+  },
+  "model.2.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 813564,
+        "slice_shape": [
+          93,
+          2187
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          2187,
+          93
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 813564,
+        "bin_size_bytes": 8748,
+        "slice_shape": [
+          2187,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          2187
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 822312,
+        "bin_size_bytes": 9605304,
+        "slice_shape": [
+          2187,
+          1098
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          1098,
+          2187
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 10427616,
+        "bin_size_bytes": 4392,
+        "slice_shape": [
+          1098,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          1098
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 10432008,
+        "bin_size_bytes": 5828184,
+        "slice_shape": [
+          1098,
+          1327
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          1327,
+          1098
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 16260192,
+        "bin_size_bytes": 5308,
+        "slice_shape": [
+          1327,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          1327
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 16265500,
+        "bin_size_bytes": 2038272,
+        "slice_shape": [
+          1327,
+          384
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          384,
+          1327
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 18303772,
+        "bin_size_bytes": 1536,
+        "slice_shape": [
+          384,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          384
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 18305308,
+        "bin_size_bytes": 15360,
+        "slice_shape": [
+          384,
+          10
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          10,
+          384
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_2_weights_G01.bin",
+        "bin_offset_bytes": 18320668,
+        "bin_size_bytes": 40,
+        "slice_shape": [
+          10,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          10
+        ]
+      }
+    }
+  },
+  "model.3.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 5066600,
+        "slice_shape": [
+          350,
+          3619
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          3619,
+          350
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 5066600,
+        "bin_size_bytes": 14476,
+        "slice_shape": [
+          3619,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          3619
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 5081076,
+        "bin_size_bytes": 30674644,
+        "slice_shape": [
+          3619,
+          2119
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          2119,
+          3619
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 35755720,
+        "bin_size_bytes": 8476,
+        "slice_shape": [
+          2119,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          2119
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 35764196,
+        "bin_size_bytes": 23987080,
+        "slice_shape": [
+          2119,
+          2830
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          2830,
+          2119
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 59751276,
+        "bin_size_bytes": 11320,
+        "slice_shape": [
+          2830,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          2830
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 59762596,
+        "bin_size_bytes": 5637360,
+        "slice_shape": [
+          2830,
+          498
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          498,
+          2830
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 65399956,
+        "bin_size_bytes": 1992,
+        "slice_shape": [
+          498,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          498
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 65401948,
+        "bin_size_bytes": 6776784,
+        "slice_shape": [
+          498,
+          3402
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          3402,
+          498
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 72178732,
+        "bin_size_bytes": 13608,
+        "slice_shape": [
+          3402,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          3402
+        ]
+      }
+    },
+    "model.5.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 72192340,
+        "bin_size_bytes": 38347344,
+        "slice_shape": [
+          3402,
+          2818
+        ],
+        "source_key": "model.10.weight",
+        "tensor_shape": [
+          2818,
+          3402
+        ]
+      }
+    },
+    "model.5.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 110539684,
+        "bin_size_bytes": 11272,
+        "slice_shape": [
+          2818,
+          1
+        ],
+        "source_key": "model.10.bias",
+        "tensor_shape": [
+          2818
+        ]
+      }
+    },
+    "model.6.weight": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 110550956,
+        "bin_size_bytes": 123992,
+        "slice_shape": [
+          2818,
+          11
+        ],
+        "source_key": "model.12.weight",
+        "tensor_shape": [
+          11,
+          2818
+        ]
+      }
+    },
+    "model.6.bias": {
+      "0": {
+        "bin_file": "model_3_weights_G01.bin",
+        "bin_offset_bytes": 110674948,
+        "bin_size_bytes": 44,
+        "slice_shape": [
+          11,
+          1
+        ],
+        "source_key": "model.12.bias",
+        "tensor_shape": [
+          11
+        ]
+      }
+    }
+  },
+  "model.4.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 2691780,
+        "slice_shape": [
+          435,
+          1547
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          1547,
+          435
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 2691780,
+        "bin_size_bytes": 6188,
+        "slice_shape": [
+          1547,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          1547
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 2697968,
+        "bin_size_bytes": 16515772,
+        "slice_shape": [
+          1547,
+          2669
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          2669,
+          1547
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 19213740,
+        "bin_size_bytes": 10676,
+        "slice_shape": [
+          2669,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          2669
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 19224416,
+        "bin_size_bytes": 15928592,
+        "slice_shape": [
+          2669,
+          1492
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          1492,
+          2669
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 35153008,
+        "bin_size_bytes": 5968,
+        "slice_shape": [
+          1492,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          1492
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 35158976,
+        "bin_size_bytes": 22099504,
+        "slice_shape": [
+          1492,
+          3703
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          3703,
+          1492
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 57258480,
+        "bin_size_bytes": 14812,
+        "slice_shape": [
+          3703,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          3703
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 57273292,
+        "bin_size_bytes": 103684,
+        "slice_shape": [
+          3703,
+          7
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          7,
+          3703
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_4_weights_G01.bin",
+        "bin_offset_bytes": 57376976,
+        "bin_size_bytes": 28,
+        "slice_shape": [
+          7,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          7
+        ]
+      }
+    }
+  },
+  "model.5.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 383856,
+        "slice_shape": [
+          66,
+          1454
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          1454,
+          66
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 383856,
+        "bin_size_bytes": 5816,
+        "slice_shape": [
+          1454,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          1454
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 389672,
+        "bin_size_bytes": 20856176,
+        "slice_shape": [
+          1454,
+          3586
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          3586,
+          1454
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 21245848,
+        "bin_size_bytes": 14344,
+        "slice_shape": [
+          3586,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          3586
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 21260192,
+        "bin_size_bytes": 10026456,
+        "slice_shape": [
+          3586,
+          699
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          699,
+          3586
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 31286648,
+        "bin_size_bytes": 2796,
+        "slice_shape": [
+          699,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          699
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 31289444,
+        "bin_size_bytes": 11346168,
+        "slice_shape": [
+          699,
+          4058
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          4058,
+          699
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 42635612,
+        "bin_size_bytes": 16232,
+        "slice_shape": [
+          4058,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          4058
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 42651844,
+        "bin_size_bytes": 162320,
+        "slice_shape": [
+          4058,
+          10
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          10,
+          4058
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_5_weights_G01.bin",
+        "bin_offset_bytes": 42814164,
+        "bin_size_bytes": 40,
+        "slice_shape": [
+          10,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          10
+        ]
+      }
+    }
+  },
+  "model.6.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 1434464,
+        "slice_shape": [
+          184,
+          1949
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          1949,
+          184
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 1434464,
+        "bin_size_bytes": 7796,
+        "slice_shape": [
+          1949,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          1949
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 1442260,
+        "bin_size_bytes": 24783484,
+        "slice_shape": [
+          1949,
+          3179
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          3179,
+          1949
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 26225744,
+        "bin_size_bytes": 12716,
+        "slice_shape": [
+          3179,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          3179
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 26238460,
+        "bin_size_bytes": 27085080,
+        "slice_shape": [
+          3179,
+          2130
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          2130,
+          3179
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 53323540,
+        "bin_size_bytes": 8520,
+        "slice_shape": [
+          2130,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          2130
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 53332060,
+        "bin_size_bytes": 161880,
+        "slice_shape": [
+          2130,
+          19
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          19,
+          2130
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_6_weights_G01.bin",
+        "bin_offset_bytes": 53493940,
+        "bin_size_bytes": 76,
+        "slice_shape": [
+          19,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          19
+        ]
+      }
+    }
+  },
+  "model.7.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 1347216,
+        "slice_shape": [
+          127,
+          2652
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          2652,
+          127
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 1347216,
+        "bin_size_bytes": 10608,
+        "slice_shape": [
+          2652,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          2652
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 1357824,
+        "bin_size_bytes": 11658192,
+        "slice_shape": [
+          2652,
+          1099
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          1099,
+          2652
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 13016016,
+        "bin_size_bytes": 4396,
+        "slice_shape": [
+          1099,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          1099
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 13020412,
+        "bin_size_bytes": 6303864,
+        "slice_shape": [
+          1099,
+          1434
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          1434,
+          1099
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 19324276,
+        "bin_size_bytes": 5736,
+        "slice_shape": [
+          1434,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          1434
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 19330012,
+        "bin_size_bytes": 20781528,
+        "slice_shape": [
+          1434,
+          3623
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          3623,
+          1434
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 40111540,
+        "bin_size_bytes": 14492,
+        "slice_shape": [
+          3623,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          3623
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 40126032,
+        "bin_size_bytes": 23984260,
+        "slice_shape": [
+          3623,
+          1655
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          1655,
+          3623
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 64110292,
+        "bin_size_bytes": 6620,
+        "slice_shape": [
+          1655,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          1655
+        ]
+      }
+    },
+    "model.5.weight": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 64116912,
+        "bin_size_bytes": 79440,
+        "slice_shape": [
+          1655,
+          12
+        ],
+        "source_key": "model.10.weight",
+        "tensor_shape": [
+          12,
+          1655
+        ]
+      }
+    },
+    "model.5.bias": {
+      "0": {
+        "bin_file": "model_7_weights_G01.bin",
+        "bin_offset_bytes": 64196352,
+        "bin_size_bytes": 48,
+        "slice_shape": [
+          12,
+          1
+        ],
+        "source_key": "model.10.bias",
+        "tensor_shape": [
+          12
+        ]
+      }
+    }
+  },
+  "model.8.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 2450780,
+        "slice_shape": [
+          433,
+          1415
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          1415,
+          433
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 2450780,
+        "bin_size_bytes": 5660,
+        "slice_shape": [
+          1415,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          1415
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 2456440,
+        "bin_size_bytes": 15661220,
+        "slice_shape": [
+          1415,
+          2767
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          2767,
+          1415
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 18117660,
+        "bin_size_bytes": 11068,
+        "slice_shape": [
+          2767,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          2767
+        ]
+      }
+    },
+    "model.2.weight": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 18128728,
+        "bin_size_bytes": 32783416,
+        "slice_shape": [
+          2767,
+          2962
+        ],
+        "source_key": "model.4.weight",
+        "tensor_shape": [
+          2962,
+          2767
+        ]
+      }
+    },
+    "model.2.bias": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 50912144,
+        "bin_size_bytes": 11848,
+        "slice_shape": [
+          2962,
+          1
+        ],
+        "source_key": "model.4.bias",
+        "tensor_shape": [
+          2962
+        ]
+      }
+    },
+    "model.3.weight": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 50923992,
+        "bin_size_bytes": 8637192,
+        "slice_shape": [
+          2962,
+          729
+        ],
+        "source_key": "model.6.weight",
+        "tensor_shape": [
+          729,
+          2962
+        ]
+      }
+    },
+    "model.3.bias": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 59561184,
+        "bin_size_bytes": 2916,
+        "slice_shape": [
+          729,
+          1
+        ],
+        "source_key": "model.6.bias",
+        "tensor_shape": [
+          729
+        ]
+      }
+    },
+    "model.4.weight": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 59564100,
+        "bin_size_bytes": 46656,
+        "slice_shape": [
+          729,
+          16
+        ],
+        "source_key": "model.8.weight",
+        "tensor_shape": [
+          16,
+          729
+        ]
+      }
+    },
+    "model.4.bias": {
+      "0": {
+        "bin_file": "model_8_weights_G01.bin",
+        "bin_offset_bytes": 59610756,
+        "bin_size_bytes": 64,
+        "slice_shape": [
+          16,
+          1
+        ],
+        "source_key": "model.8.bias",
+        "tensor_shape": [
+          16
+        ]
+      }
+    }
+  },
+  "model.9.": {
+    "model.0.weight": {
+      "0": {
+        "bin_file": "model_9_weights_G01.bin",
+        "bin_offset_bytes": 0,
+        "bin_size_bytes": 1234200,
+        "slice_shape": [
+          374,
+          825
+        ],
+        "source_key": "model.0.weight",
+        "tensor_shape": [
+          825,
+          374
+        ]
+      }
+    },
+    "model.0.bias": {
+      "0": {
+        "bin_file": "model_9_weights_G01.bin",
+        "bin_offset_bytes": 1234200,
+        "bin_size_bytes": 3300,
+        "slice_shape": [
+          825,
+          1
+        ],
+        "source_key": "model.0.bias",
+        "tensor_shape": [
+          825
+        ]
+      }
+    },
+    "model.1.weight": {
+      "0": {
+        "bin_file": "model_9_weights_G01.bin",
+        "bin_offset_bytes": 1237500,
+        "bin_size_bytes": 49500,
+        "slice_shape": [
+          825,
+          15
+        ],
+        "source_key": "model.2.weight",
+        "tensor_shape": [
+          15,
+          825
+        ]
+      }
+    },
+    "model.1.bias": {
+      "0": {
+        "bin_file": "model_9_weights_G01.bin",
+        "bin_offset_bytes": 1287000,
+        "bin_size_bytes": 60,
+        "slice_shape": [
+          15,
+          1
+        ],
+        "source_key": "model.2.bias",
+        "tensor_shape": [
+          15
+        ]
+      }
+    }
+  }
+}

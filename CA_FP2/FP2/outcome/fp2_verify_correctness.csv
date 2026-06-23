@@ -1,0 +1,2 @@
+group,status,output_tensor,golden_elems,student_elems,fail_count,total,max_abs,mean_abs,rmse,max_rel,worst_flat,message
+G01,PASS,/workspace/FP2/outcome/G01/output_tensor.bin,122,122,0,122,6.2584877e-07,4.08413727e-08,1.23162501e-07,0.000137357241,96,OK

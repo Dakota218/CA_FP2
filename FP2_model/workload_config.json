@@ -1,0 +1,459 @@
+{
+    "MLP_ID_0": {
+        "model_id": 0,
+        "architecture": [
+            440,
+            332,
+            3475,
+            768,
+            3766,
+            729,
+            294,
+            912,
+            9
+        ],
+        "total_layers": 8,
+        "weight_file": "mlp_weights/mlp_0_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 440,
+                "out_features": 332,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 332,
+                "out_features": 3475,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 3475,
+                "out_features": 768,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 768,
+                "out_features": 3766,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 3766,
+                "out_features": 729,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 5,
+                "in_features": 729,
+                "out_features": 294,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 6,
+                "in_features": 294,
+                "out_features": 912,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 7,
+                "in_features": 912,
+                "out_features": 9,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_1": {
+        "model_id": 1,
+        "architecture": [
+            297,
+            2975,
+            793,
+            372,
+            13
+        ],
+        "total_layers": 4,
+        "weight_file": "mlp_weights/mlp_1_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 297,
+                "out_features": 2975,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 2975,
+                "out_features": 793,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 793,
+                "out_features": 372,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 372,
+                "out_features": 13,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_2": {
+        "model_id": 2,
+        "architecture": [
+            93,
+            2187,
+            1098,
+            1327,
+            384,
+            10
+        ],
+        "total_layers": 5,
+        "weight_file": "mlp_weights/mlp_2_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 93,
+                "out_features": 2187,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 2187,
+                "out_features": 1098,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 1098,
+                "out_features": 1327,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 1327,
+                "out_features": 384,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 384,
+                "out_features": 10,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_3": {
+        "model_id": 3,
+        "architecture": [
+            350,
+            3619,
+            2119,
+            2830,
+            498,
+            3402,
+            2818,
+            11
+        ],
+        "total_layers": 7,
+        "weight_file": "mlp_weights/mlp_3_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 350,
+                "out_features": 3619,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 3619,
+                "out_features": 2119,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 2119,
+                "out_features": 2830,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 2830,
+                "out_features": 498,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 498,
+                "out_features": 3402,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 5,
+                "in_features": 3402,
+                "out_features": 2818,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 6,
+                "in_features": 2818,
+                "out_features": 11,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_4": {
+        "model_id": 4,
+        "architecture": [
+            435,
+            1547,
+            2669,
+            1492,
+            3703,
+            7
+        ],
+        "total_layers": 5,
+        "weight_file": "mlp_weights/mlp_4_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 435,
+                "out_features": 1547,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 1547,
+                "out_features": 2669,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 2669,
+                "out_features": 1492,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 1492,
+                "out_features": 3703,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 3703,
+                "out_features": 7,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_5": {
+        "model_id": 5,
+        "architecture": [
+            66,
+            1454,
+            3586,
+            699,
+            4058,
+            10
+        ],
+        "total_layers": 5,
+        "weight_file": "mlp_weights/mlp_5_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 66,
+                "out_features": 1454,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 1454,
+                "out_features": 3586,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 3586,
+                "out_features": 699,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 699,
+                "out_features": 4058,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 4058,
+                "out_features": 10,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_6": {
+        "model_id": 6,
+        "architecture": [
+            184,
+            1949,
+            3179,
+            2130,
+            19
+        ],
+        "total_layers": 4,
+        "weight_file": "mlp_weights/mlp_6_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 184,
+                "out_features": 1949,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 1949,
+                "out_features": 3179,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 3179,
+                "out_features": 2130,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 2130,
+                "out_features": 19,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_7": {
+        "model_id": 7,
+        "architecture": [
+            127,
+            2652,
+            1099,
+            1434,
+            3623,
+            1655,
+            12
+        ],
+        "total_layers": 6,
+        "weight_file": "mlp_weights/mlp_7_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 127,
+                "out_features": 2652,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 2652,
+                "out_features": 1099,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 1099,
+                "out_features": 1434,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 1434,
+                "out_features": 3623,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 3623,
+                "out_features": 1655,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 5,
+                "in_features": 1655,
+                "out_features": 12,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_8": {
+        "model_id": 8,
+        "architecture": [
+            433,
+            1415,
+            2767,
+            2962,
+            729,
+            16
+        ],
+        "total_layers": 5,
+        "weight_file": "mlp_weights/mlp_8_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 433,
+                "out_features": 1415,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 1415,
+                "out_features": 2767,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 2,
+                "in_features": 2767,
+                "out_features": 2962,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 3,
+                "in_features": 2962,
+                "out_features": 729,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 4,
+                "in_features": 729,
+                "out_features": 16,
+                "op": "Linear + Softmax"
+            }
+        ]
+    },
+    "MLP_ID_9": {
+        "model_id": 9,
+        "architecture": [
+            374,
+            825,
+            15
+        ],
+        "total_layers": 2,
+        "weight_file": "mlp_weights/mlp_9_weights.pt",
+        "layer_info": [
+            {
+                "layer_idx": 0,
+                "in_features": 374,
+                "out_features": 825,
+                "op": "Linear + SiLU"
+            },
+            {
+                "layer_idx": 1,
+                "in_features": 825,
+                "out_features": 15,
+                "op": "Linear + Softmax"
+            }
+        ]
+    }
+}
