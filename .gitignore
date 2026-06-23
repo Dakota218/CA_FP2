@@ -1,3 +1,4 @@
+*.pdf
 *.pt
 *.bin
 **/mlp_weights/
